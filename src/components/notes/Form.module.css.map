@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,KAFC,GAEC,GAAG,CAAC;EACF,OAAO,EAAE,WAAW;EACpB,KAAK,EAAE,IAAI;CAOd;;AAXL,AAMQ,KANH,GAEC,GAAG,GAIC,MAAM,CAAC;EACL,UAAU,EAAE,WAAW;EACvB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "Form.module.scss"
+    ],
+    "names": [],
+    "file": "Form.module.css"
+}

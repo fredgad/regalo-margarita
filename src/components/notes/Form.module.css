@@ -1,0 +1,13 @@
+.form > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.form > div > button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+/*# sourceMappingURL=Form.module.css.map */

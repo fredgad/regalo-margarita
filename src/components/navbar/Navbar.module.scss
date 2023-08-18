@@ -1,0 +1,47 @@
+.nav {
+  background: rgb(111, 182, 111);
+  position: relative;
+
+  > button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 7px 7px 0;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  > button:hover {
+    background: #fff;
+    color: #6fb66f;
+  }
+  > button:focus {
+    background: #fff;
+    color: #6fb66f;
+    outline: none;
+  }
+  > div {
+    > div {
+      img {
+        height: 8vh;
+        min-height: 80px;
+      }
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
+}

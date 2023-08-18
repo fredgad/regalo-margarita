@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.search {
+    display: flex;
+
+    button { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38px;
+        width: 38px;
+        border: none;
+        outline: none;
+        background: transparent;
+
+        img {
+            height: auto;
+            width: 100%;
+        
+        }
+    }
+}
+.form-control:focus + button {
+    background: #6fb66f;
+}

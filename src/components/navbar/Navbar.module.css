@@ -1,0 +1,58 @@
+.nav {
+  background: #6fb66f;
+  position: relative;
+}
+
+.nav > button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin: 7px 7px 0;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  max-width: -moz-fit-content;
+  max-width: -webkit-fit-content;
+  max-width: fit-content;
+}
+
+.nav > button:hover {
+  background: #fff;
+  color: #6fb66f;
+}
+
+.nav > button:focus {
+  background: #fff;
+  color: #6fb66f;
+  outline: none;
+}
+
+.nav > div > div img {
+  height: 14vw;
+  min-height: 120px;
+}
+
+.nav > div ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=Navbar.module.css.map */

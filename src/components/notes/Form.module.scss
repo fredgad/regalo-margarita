@@ -1,0 +1,13 @@
+.form {
+
+    > div {
+        display: inline-flex;
+        width: 100%;
+
+        > button {
+            background: transparent;
+            outline: none;
+            border: none;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.alert p {
+  display: none;
+}
+
+.alert.alert-success,
+.alert.alert-warning,
+.alert.alert-danger {
+  background: transparent;
+  border: none;
+  -webkit-box-shadow: 0 0 4px silver;
+          box-shadow: 0 0 4px silver;
+}
+
+.alert.alert-deleted {
+  color: #721c24;
+  -webkit-box-shadow: 0 0 4px silver;
+          box-shadow: 0 0 4px silver;
+}
+
+.alert.alert-deleted p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-align: center;
+  max-height: 26px;
+  border: 1px solid #6fb66f;
+  color: #6fb66f;
+  margin: 0 -27px 0 7px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  cursor: pointer;
+}
+
+.alert.alert-deleted p:hover {
+  color: #fff;
+  background: #6fb66f;
+}
+/*# sourceMappingURL=Alert.css.map */
